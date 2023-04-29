@@ -64,3 +64,9 @@ h1 {
   top: 8px;
   left: 85%;
 }
+
+@media screen and (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+}
