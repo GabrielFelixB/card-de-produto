@@ -69,4 +69,9 @@ h1 {
   .content {
     flex-direction: column;
   }
+
+  .product img {
+    max-width: 420px;
+    max-height: 230px;
+  }
 }
