@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap");
+
+:root {
+  --color-background: #d9cdf7;
+  --color-text: #271a45;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--color-background);
+}
+
+h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 32px;
+  margin-top: 12px;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-code {
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.product-price {
+  margin-top: 12px;
+}
+
+.product-btn {
+  padding: 8px 16px;
+  background-color: transparent;
+  border-radius: 100px;
+  border: 0.5px solid var(--color-text);
+  margin-top: 20px;
+}
+
+.product {
+  position: relative;
+}
+
+.product img {
+  max-width: 449px;
+  max-height: 253px;
+}
+
+#btn-gif {
+  width: 33px;
+  height: 23px;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  left: 85%;
+}
